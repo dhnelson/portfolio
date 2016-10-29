@@ -22,11 +22,6 @@ Route::get('/', [
 	'uses' => 'HomeController@home'
 ]);
 
-Route::get('portfolio', [
-	'as' => 'portfolio', 
-	'uses' => 'HomeController@portfolio'
-]);
-
 Route::get('resume', [
 	'as' => 'resume', 
 	'uses' => 'HomeController@resume'

@@ -11,10 +11,6 @@ class HomeController extends Controller
         return view('pages.home');
     }
 
-    public function portfolio() {
-        return view('pages.portfolio');
-    }
-
     public function resume() {
         return view('pages.resume');
     }

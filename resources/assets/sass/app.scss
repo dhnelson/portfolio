@@ -10,12 +10,6 @@
 
 body {
 	color: green;
-	background-color: white;
-}
-
-.container {
-	background-color: #f5f8fa;
-	margin: -20px;
 }
 
 .navbar {
@@ -35,6 +29,14 @@ body {
 	}
 }
 
+#bio {
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+p {
+    text-indent: 50px;
+}
 
 
 
