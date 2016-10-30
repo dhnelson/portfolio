@@ -1,15 +1,15 @@
 @extends('layouts.layout')
 
-@section('title', 'Contact')
+@section('title', 'Contact | Dustin Nelson')
 
 @section('content') 
 
 <div class="row">
 	<div class="col-md-6 col-md-offset-1">
+    <div class="well">
+        <h2 class="text-center" id="bio">Contact Me Today!</h2>
 
-        <h2 class="text-center blue">Contact Me Today!</h2>
-
-    {!! Form::open (array('action' => 'ContactController@ContactForm')) !!} 
+        {!! Form::open (array('action' => 'ContactController@ContactForm')) !!} 
     
             <div class="form-group red">
                 {{ Form::label('Name:') }}
@@ -39,7 +39,8 @@
                 {{ Form::submit('Send Message', 
                   array('class'=>'btn btn-primary')) }}
             </div>
-    {!! Form::close() !!}                       
+        {!! Form::close() !!}
+        </div>                       
     </div>
 
     <div class="col-md-4 contact-box-spacing">

@@ -33,6 +33,11 @@ Route::get('contact', [
 	'uses' => 'ContactController@contact'
 ]);
 
+Route::get('/download/{file}', [
+	'as' => 'download',
+	'uses' => 'DownloadsController@download'
+]);
+
 
 /*
 |**************
