@@ -15,11 +15,11 @@
 			<h1 style="text-align:center;">Dustin H.R. Nelson</h1>
 				
 			<p style="text-align:center;">Web Developer<br>
-			<span><a href="dustinhnelson@gmail.com">dustin@dhrnelson.com</a></span>&nbsp;&nbsp; ●&nbsp;&nbsp; <a href="https://dhrnelson.com/portfolio">dhrnelson.com/portfolio</a> &nbsp; ●&nbsp;&nbsp; <a href="tel:1-201-704-1917">(201) 704-1917</a></p>
+			<span><a href="dustinhnelson@gmail.com">dustin@dustinhnelson.com</a></span>&nbsp;&nbsp; ●&nbsp;&nbsp; <a href="https://dustinhnelson.com/resume">dustinhnelson.com/resume</a> &nbsp; ●&nbsp;&nbsp; <a href="tel:1-201-704-1917">(201) 704-1917</a></p>
 			
 			<h2>Skills</h2>
 			<p><strong>Programming Languages:</strong> HTML, CSS, SASS, Bootstrap, JavaScript, jQuery, AJAX, JSON, PHP, and MySQL<br>
-			<strong>Technologies:</strong> Laravel, MAMP, Git, Composer, Grunt, WordPress, Mac, and Windows</p>
+			<strong>Technologies:</strong> Laravel, MAMP, Git, Composer, WordPress, Mac, and Windows</p>
 			
 			<h2>Education</h2>
 			<p><strong>Brandeis University</strong>, Waltham, MA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="float:right;">2015</span><br>
@@ -44,7 +44,7 @@
 			Intern</p>
 			<ul>
 			<li>Assisted account officers through completion of various documentation for foreign bank account customers</li>
-			<li>Developed a comprehensive intern manual; general</li>
+			<li>Developed a comprehensive intern manual</li>
 			<li>Synchronized filing system improving the retrieval of vital documents</li>
 			</ul>
 

@@ -14,6 +14,8 @@
             <li class="{{ Request::is('/') ? "active" : ""}}"><a href="{{ route('home') }}">HOME</a></li> 
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PORTFOLIO <span class="caret"></span></a>
                     <ul class="dropdown-menu">
+                      <li><a href="{{ url('deathvacation.com') }}" target="_blank">deathvacation.com</a></li>
+                      <li><a href="{{ url('gh3boxing.com') }}" target="_blank">gh3boxing.com</a></li>  
                       <li><a href="{{ url('traineps.com') }}" target="_blank">epstraining.com</a></li> 
                     </ul>
                 </li>

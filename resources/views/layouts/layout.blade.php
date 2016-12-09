@@ -13,8 +13,10 @@
         @include('errors.error')
 
         @yield('content')
-        
+
     </div> 
+
+    	@include('layouts._footer')
 
 </body>
 </html>
