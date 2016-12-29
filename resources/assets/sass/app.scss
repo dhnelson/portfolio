@@ -11,23 +11,23 @@
 $mint-chip: #18bc9c;
 $dark-blue: #2c3e50;
 $light-blue: #3097d1;
-$yellow: #d6d632;
+$white: #ffffff;
 
 body {
-	color: white;
+	color: $white;
 	background-color: $mint-chip;
 	font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
 	background-color: $dark-blue;
-	border: 1px solid $light-blue;
+	border: 1px solid $dark-blue;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
     font-weight: bold;
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-header > a {
-    color: $yellow;
+    color: $white;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-header > a:hover {
@@ -43,7 +43,7 @@ body {
 }
 
 a:hover {
-	color: $yellow;
+	color: $white;
 }
 
 footer {

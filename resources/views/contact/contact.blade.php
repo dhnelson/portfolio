@@ -4,6 +4,10 @@
 
 @section('content') 
 
+@if(Session::has('flash_message'))
+    <p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('flash_message') }}</p>
+@endif
+
 <div class="row">
 	<div class="col-md-6 col-md-offset-1">
     <div class="well">
@@ -50,12 +54,12 @@
 
             <p><span class="glyphicon glyphicon-earphone"></span> Cellphone: <a href="tel:1-201-704-1917">(201) 704-1917</a></p>
             
-            <p><span class="fa fa-envelope" aria-hidden="true"></span> Email: <a href="dustin@dustinhnelson.com">dustin@dustinhnelson.com</a></p>
+            <p><span class="fa fa-envelope" aria-hidden="true"></span> Email: <a href="mailto:dustinhnelson@gmail.com">dustinhnelson@gmail.com</a></p>
             
             <span class="glyphicon glyphicon-globe"></span> Social Platforms:
                 <ul>
                     <li><dd><a href="https://github.com/dhnelson" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a></dd></li>
-                    <li><dd><a href="https://www.linkedin.com/in/dustin-nelson-a2710916" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></dd></li>
+                    <li><dd><a href="https://www.linkedin.com/in/dustinhnelson" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></dd></li>
                     <li><dd><a href="https://www.facebook.com/dustinhnelson" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></dd></li>
                 </ul>
             

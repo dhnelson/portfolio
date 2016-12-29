@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests;
 use App\Http\Requests\ContactFormRequest;
+use Mail;
+use Session;
 
 class ContactController extends Controller
 {
@@ -27,8 +30,9 @@ class ContactController extends Controller
         		$message->subject($data['subject']);
         });
 
-        flash()->success('Thanks!', 'Your Message Was Sent Successfully');
+        Session::flash('flash_message', 'Thank You, Your Message Was Sent Successfully!'); 
+        Session::flash('alert-class', 'alert-success'); 
 
-        return redirect()->route('home');
+        return redirect()->back();
     }
 }

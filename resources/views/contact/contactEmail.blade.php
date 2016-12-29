@@ -3,7 +3,8 @@
 <h4><b>Subject:</b> {{ $subject }}</h4>
 
 <div>
-	{{ $bodyMessage }}
+	<p class"text-justify"><b>Body:</b><br>
+	{{ $bodyMessage }}</p>
 </div>
 
-<p><b>Sent From:</b> {{ $email }}</p>	
+<p><b>Sent From:</b> {{ $email }}</p>		
